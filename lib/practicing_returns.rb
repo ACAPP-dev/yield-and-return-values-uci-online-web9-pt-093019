@@ -8,7 +8,7 @@ def hello(array)
     new_array << yield(array[i])
     i += 1
   end
-  p new_array
+  new_array
 end
 
 #binding.pry
